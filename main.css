@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Nunito", sans-serif;
+	display: flex;
+	justify-content: center;
+	background: rgb(13, 49, 87);
+	background: radial-gradient(
+		circle,
+		rgba(13, 49, 87, 0.9576719576719577) 0%,
+		rgba(31, 23, 75, 1) 88%
+	);
+	user-select: none;
+}
+
+.container {
+	/* position: relative; */
+	height: auto;
+	display: flex;
+	gap: 30px;
+	margin-top: 100px;
+	color: white;
+	font-size: 30px;
+}
+.columns {
+	width: 400px;
+	min-height: 100px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	/* background-color: rgb(78, 78, 163); */
+	background: rgb(47, 75, 218);
+	background: radial-gradient(circle, rgba(26, 103, 186, 0.958) 0%, rgb(39, 20, 143) 88%);
+	padding: 10px;
+	position: relative;
+}
+.todo {
+	width: 380px;
+	height: 100px;
+	padding: 10px;
+	background-color: rgb(8, 0, 92);
+	/* border-radius: 20px; */
+	display: flex;
+	align-items: center;
+	padding-left: 40px;
+	cursor: grab;
+}
+
+.title {
+	width: 400px;
+	height: 50px;
+	margin-top: -10px;
+	margin-left: -10px;
+	padding-left: 20px;
+}
+.title-1 {
+	background-color: rgb(102, 0, 190);
+}
+.title-2 {
+	background-color: rgb(0, 128, 85);
+}
+.title-3 {
+	background-color: rgb(1, 90, 1);
+}
+.btn {
+	width: 400px;
+	height: 50px;
+	border: none;
+	background: rgb(8, 0, 92);
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+}
